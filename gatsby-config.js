@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Oakland Orthopedic Partners",
-    description: "Decades of experience as proven experts in Orthopedics and musculoskeletal care"
+    title: 'Oakland Orthopedic Partners',
+    description:
+      'Decades of experience as proven experts in Orthopedics and musculoskeletal care',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -18,6 +19,6 @@ module.exports = {
       },
     },
     'gatsby-plugin-sass',
-    'gatsby-plugin-offline'
+    'gatsby-plugin-offline',
   ],
 }
