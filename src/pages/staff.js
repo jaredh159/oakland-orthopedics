@@ -3,8 +3,6 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
 import drHenderson from '../assets/images/dr-henderson.jpg'
-import exterior from '../assets/images/office-exterior.jpg'
-import kneePain from '../assets/images/knee-pain-us.jpg'
 
 const About = props => (
   <Layout>

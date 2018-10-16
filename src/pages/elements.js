@@ -1,7 +1,7 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
-
 import pic03 from '../assets/images/pic03.jpg'
 import pic08 from '../assets/images/pic08.jpg'
 import pic09 from '../assets/images/pic09.jpg'

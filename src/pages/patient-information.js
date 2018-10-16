@@ -1,13 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
-import { Link, withPrefix } from 'gatsby'
-
-import bruceWithPatient from '../assets/images/dr-henderson-with-female-patient.jpg'
-import exterior from '../assets/images/office-exterior.jpg'
-import kneePain from '../assets/images/knee-pain-us.jpg'
-import bracelet from '../assets/images/patient-bracelet-us.jpg'
-
+import { Link } from 'gatsby'
 import newPatientPacket from '../assets/pdfs/new-patient-packet.pdf'
 import registrationInsurance from '../assets/pdfs/registration-and-insurance.pdf'
 import privacyDisclosure from '../assets/pdfs/privacy-policy-and-disclosure.pdf'

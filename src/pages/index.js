@@ -3,14 +3,12 @@ import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
-
 import pointToChart from '../assets/images/pointing-to-chart.jpg'
 import physicalTherapy from '../assets/images/physical-therapy.jpg'
 import xray from '../assets/images/xray.jpg'
 import patient from '../assets/images/patient-bracelet-us.jpg'
 import drHenderson from '../assets/images/dr-henderson.jpg'
 import surgeryCenter from '../assets/images/surgery-center.jpg'
-import pic06 from '../assets/images/pic06.jpg'
 
 class HomeIndex extends React.Component {
   render() {

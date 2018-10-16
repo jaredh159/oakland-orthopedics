@@ -1,9 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
-
-import bruceWithPatient from '../assets/images/dr-henderson-with-female-patient.jpg'
-import exterior from '../assets/images/office-exterior.jpg'
 import kneePain from '../assets/images/knee-pain-us.jpg'
 
 const Service = ({ title, children }) => (
