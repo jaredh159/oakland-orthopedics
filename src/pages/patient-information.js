@@ -7,7 +7,17 @@ import bruceWithPatient from '../assets/images/dr-henderson-with-female-patient.
 import exterior from '../assets/images/office-exterior.jpg'
 import kneePain from '../assets/images/knee-pain-us.jpg'
 import bracelet from '../assets/images/patient-bracelet-us.jpg'
-import jointCarePdf from '../assets/pdfs/jointcare.pdf'
+
+import newPatientPacket from '../assets/pdfs/new-patient-packet.pdf'
+import registrationInsurance from '../assets/pdfs/registration-and-insurance.pdf'
+import privacyDisclosure from '../assets/pdfs/privacy-policy-and-disclosure.pdf'
+import electronicPrescriptionProgram from '../assets/pdfs/electronic-prescription-program.pdf'
+import totalHip from '../assets/pdfs/total-hip-replacement.pdf'
+import arthroscopicSurgery from '../assets/pdfs/arthroscopic-surgery.pdf'
+import totalKnee from '../assets/pdfs/total-knee-replacement.pdf'
+import jointCareCenter from '../assets/pdfs/joint-care-center.pdf'
+import patientGuide from '../assets/pdfs/patient-guide.pdf'
+import cpm from '../assets/pdfs/continuous-passive-motion-for-knee.pdf'
 
 const Pdf = ({ url, title }) => (
   <>
@@ -36,22 +46,22 @@ const About = (props) => (
                       To ensure prompt treatment, please download the following patient form forms, fill them out completely, and bring them with you to your first appointment.
                     </p>
                     <ul>
-                      <li><Pdf url={jointCarePdf} title="Complete New Patient Packet PDF" /></li>
-                      <li><Pdf url={withPrefix('/pdfs/jointcare.pdf')} title="Registration and Insurance PDF" /></li>
-                      <li><Pdf url="lol" title="Privacy Policy & Disclosure PDF" /></li>
-                      <li><Pdf url="lol" title="Electronic Prescription Program PDF" /></li>
+                      <li><Pdf url={newPatientPacket} title="Complete New Patient Packet PDF" /></li>
+                      <li><Pdf url={registrationInsurance} title="Registration and Insurance PDF" /></li>
+                      <li><Pdf url={privacyDisclosure} title="Privacy Policy & Disclosure PDF" /></li>
+                      <li><Pdf url={electronicPrescriptionProgram} title="Electronic Prescription Program PDF" /></li>
                     </ul>
 
   <hr className="major" />
 
   <h2>Patient Guides for Surgery</h2>
       <ul>
-        <li><Pdf url={`lol`} title="Total Hip Replacement" /></li>
-        <li><Pdf url={`lol`} title="Arthroscopic Surgery" /></li>
-        <li><Pdf url={`lol`} title="Total Knee Replacement" /></li>
-        <li><Pdf url={`lol`} title="Joint Care Center, A New Approach to Joint Replacment" /></li>
-        <li><Pdf url={`lol`} title="Patient Guide" /></li>
-        <li><Pdf url={`lol`} title="Continuous Passive Motion for the Knee" /></li>
+        <li><Pdf url={totalHip} title="Total Hip Replacement" /></li>
+        <li><Pdf url={arthroscopicSurgery} title="Arthroscopic Surgery" /></li>
+        <li><Pdf url={totalKnee} title="Total Knee Replacement" /></li>
+        <li><Pdf url={jointCareCenter} title="Joint Care Center, A New Approach to Joint Replacment" /></li>
+        <li><Pdf url={patientGuide} title="Patient Guide" /></li>
+        <li><Pdf url={cpm} title="Continuous Passive Motion for the Knee" /></li>
       </ul>
 
       <hr className="major" />

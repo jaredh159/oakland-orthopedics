@@ -10,7 +10,7 @@ const About = (props) => (
     <Layout>
         <Helmet>
             <title>About Oakland Orthopedic Partners</title>
-            <meta name="description" content="About Page" />
+            <meta name="description" content="Oakland Ortho" />
         </Helmet>
 
         <div id="main" className="alt">
