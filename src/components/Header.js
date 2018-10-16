@@ -8,6 +8,7 @@ const Header = props => (
       <strong>Oakland</strong> <span>Orthopedics</span>
     </Link>
     <a
+      className="header__telephone"
       href="tel:2488586951"
       style={{ fontSize: '0.8em', borderBottomWidth: 0, marginLeft: '2em' }}
     >
