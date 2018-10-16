@@ -1,12 +1,13 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
-import { Link } from 'gatsby';
+import { Link, withPrefix } from 'gatsby';
 
 import bruceWithPatient from '../assets/images/dr-henderson-with-female-patient.jpg'
 import exterior from '../assets/images/office-exterior.jpg'
 import kneePain from '../assets/images/knee-pain-us.jpg'
 import bracelet from '../assets/images/patient-bracelet-us.jpg'
+import jointCarePdf from '../assets/pdfs/jointcare.pdf'
 
 const Pdf = ({ url, title }) => (
   <>
@@ -35,8 +36,8 @@ const About = (props) => (
                       To ensure prompt treatment, please download the following patient form forms, fill them out completely, and bring them with you to your first appointment.
                     </p>
                     <ul>
-                      <li><Pdf url="lol" title="Complete New Patient Packet PDF" /></li>
-                      <li><Pdf url="lol" title="Registration and Insurancd PDF" /></li>
+                      <li><Pdf url={jointCarePdf} title="Complete New Patient Packet PDF" /></li>
+                      <li><Pdf url={withPrefix('/pdfs/jointcare.pdf')} title="Registration and Insurance PDF" /></li>
                       <li><Pdf url="lol" title="Privacy Policy & Disclosure PDF" /></li>
                       <li><Pdf url="lol" title="Electronic Prescription Program PDF" /></li>
                     </ul>
