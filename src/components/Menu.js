@@ -7,16 +7,16 @@ const Menu = props => (
     <div className="inner">
       <ul className="actions vertical">
         <li>
-          <a
-            className="button special fit"
-            href="tel:2488586951"
-          >
+          <a className="button special fit" href="tel:2488586951">
             <i class="fa fa-phone" /> (248) 858-6951
           </a>
         </li>
         <li>
-          <a href="https://www.google.com/maps/place/Oakland+Orthopedic+Partners/@42.615759,-83.276464,17z/data=!4m5!3m4!1s0x0:0xc29c8a0926eb2720!8m2!3d42.6157587!4d-83.2764637?hl=en-US" className="button fit"
-          target="_blank">
+          <a
+            href="https://www.google.com/maps/place/Oakland+Orthopedic+Partners/@42.615759,-83.276464,17z/data=!4m5!3m4!1s0x0:0xc29c8a0926eb2720!8m2!3d42.6157587!4d-83.2764637?hl=en-US"
+            className="button fit"
+            target="_blank"
+          >
             <i class="fa fa-map-marker" /> Map &amp; Directions
           </a>
         </li>
@@ -53,7 +53,7 @@ const Menu = props => (
           </Link>
         </li>
         <li>
-          <Link onClick={props.onToggleMenu} to="/surgery-center">
+          <Link onClick={props.onToggleMenu} to="/surgical-center">
             Surgery Center
           </Link>
         </li>
