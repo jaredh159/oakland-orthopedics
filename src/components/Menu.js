@@ -8,8 +8,8 @@ const Menu = props => (
     <div className="inner">
       <ul className="actions vertical">
         <li>
-          <a className="button special fit" href="tel:2488586951">
-            <i class="fa fa-phone" /> (248) 858-6951
+          <a className="button special fit" href="tel:2483340524">
+            <i class="fa fa-phone" /> (248) 334-0524
           </a>
         </li>
         <li>
