@@ -23,8 +23,14 @@ const Pdf = ({ url, title }) => (
 const About = props => (
   <Layout>
     <Helmet>
-      <title>Patient Information</title>
-      <meta name="description" content="About Page" />
+      <title>
+        Patient Information | PDFs for Patient Forms, Surgery Guides, and
+        Insurance Accepted
+      </title>
+      <meta
+        name="description"
+        content="Serving Birmingham MI, Orchard Lake MI, and all of SE Michigan, Oakland Orthopedics almost certainly accepts your health insurance provider, including Blue Cross/Blue Shield, Priority, Cofinity, and many more!"
+      />
     </Helmet>
 
     <div id="main" className="alt">

@@ -1,7 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
-
 import bruceWithPatient from '../assets/images/dr-henderson-with-female-patient.jpg'
 import exterior from '../assets/images/office-exterior.jpg'
 import kneePain from '../assets/images/knee-pain-us.jpg'
@@ -9,8 +8,14 @@ import kneePain from '../assets/images/knee-pain-us.jpg'
 const About = props => (
   <Layout>
     <Helmet>
-      <title>About Oakland Orthopedic Partners</title>
-      <meta name="description" content="Oakland Ortho" />
+      <title>
+        About Oakland Orthopedic Partners | Auburn Hills MI, Waterford MI,
+        Sylvan Lake MI
+      </title>
+      <meta
+        name="description"
+        content="Helping patients in Pontiac MI, Bloomfield MI, Farmington Hills MI, Troy MI and more with their Orthopedic needs."
+      />
     </Helmet>
 
     <div id="main" className="alt">

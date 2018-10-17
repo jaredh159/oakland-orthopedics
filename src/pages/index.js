@@ -15,10 +15,18 @@ class HomeIndex extends React.Component {
     return (
       <Layout>
         <Helmet
-          title="Gatsby Starter - Forty"
+          title="Oakland Orthopedic Partners | Serving Pontiac, Bloomfield, Birmingham, Waterford, &amp; all of Metro Detroit &amp; Southeast Michigan"
           meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
+            {
+              name: 'description',
+              content:
+                'Decades of experience as proven experts in Orthopedics and musculoskeletal care',
+            },
+            {
+              name: 'keywords',
+              content:
+                'Pontiac, Waterford, Bloomfield, West Bloomfield, Birmingham, Michigan, MI, Detroit, shoulder, rotator cuff, dislocation, arthritis, knee, total knee, total hip, bursitis, fracture, spine, scoliosis, pinched nerves, physical therapy',
+            },
           ]}
         />
 

@@ -13,8 +13,11 @@ const Service = ({ title, children }) => (
 const Services = props => (
   <Layout>
     <Helmet>
-      <title>Services We Offer</title>
-      <meta name="description" content="Services Page" />
+      <title>Services We Offer | West Bloomfield Orthopedic Surgeon</title>
+      <meta
+        name="description"
+        content="Serving metro Detroit: joint replacements, sprains &amp; strains, total hip, total knee, pain management, spine pain, back pain, x-rays, bone density, carpal tunnel syndrome, and more!"
+      />
     </Helmet>
 
     <div id="main" className="alt">

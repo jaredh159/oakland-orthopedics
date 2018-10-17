@@ -7,8 +7,13 @@ import drHenderson from '../assets/images/dr-henderson.jpg'
 const About = props => (
   <Layout>
     <Helmet>
-      <title>Our Physicians and Staff</title>
-      <meta name="description" content="About Page" />
+      <title>
+        Dr. Bruce Henderson | Troy MI Orthopedic Total Hip, Total Knee
+      </title>
+      <meta
+        name="description"
+        content="Dr. Bruce Henderson, MD has been helping patients in Bloomfield MI, Pontiac MI, Rochester Hills MI, Birmingham MI -- all over metro Detroit -- for nearly 40 years."
+      />
     </Helmet>
 
     <div id="main" className="alt">

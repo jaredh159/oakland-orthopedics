@@ -7,8 +7,16 @@ import center from '../assets/images/surgery-center.jpg'
 const About = props => (
   <Layout>
     <Helmet>
-      <title>Surgical Care Center</title>
-      <meta name="description" content="About Page" />
+      <title>
+        Surgical Care Center | Waterford MI Orthopedic Surgery, Total Hip &amp;
+        Total Knee
+      </title>
+      <meta
+        name="description"
+        content="Oakland Orthopedics is proud to be affiliated with the Waterford Surgery Center,
+      developed by local physicians in partnership with St Joseph Mercy
+      Hospital to create a state of the art surgical care center."
+      />
     </Helmet>
 
     <div id="main" className="alt">
