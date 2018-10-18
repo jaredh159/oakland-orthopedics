@@ -21,9 +21,7 @@ const About = props => (
     <div id="main" className="alt">
       <section id="one">
         <div className="inner">
-          <header className="major">
-            <h1>About Oakland Orthopedic Partners</h1>
-          </header>
+          <h1 className="better-major">About Oakland Orthopedic Partners</h1>
           <span className="image main">
             <img src={bruceWithPatient} alt="" />
           </span>

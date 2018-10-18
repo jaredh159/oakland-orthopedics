@@ -36,9 +36,7 @@ const About = props => (
     <div id="main" className="alt">
       <section id="one">
         <div className="inner">
-          <header className="major">
-            <h1>Patient Information</h1>
-          </header>
+          <h1 className="better-major">Patient Information</h1>
 
           <h2>Patient Forms</h2>
           <p>

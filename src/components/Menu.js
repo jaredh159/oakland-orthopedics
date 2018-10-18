@@ -45,16 +45,16 @@ const Menu = props => (
           </Link>
         </li>
         <li>
-          <Link onClick={props.onToggleMenu} to="/physical-therapy">
-            Physical Therapy
+          <Link onClick={props.onToggleMenu} to="/blog">
+            Healthy Living Blog
           </Link>
         </li>
-        <li>
+        <li className="secondary">
           <Link onClick={props.onToggleMenu} to="/staff">
             Staff
           </Link>
         </li>
-        <li>
+        <li className="secondary">
           <Link onClick={props.onToggleMenu} to="/surgical-center">
             Surgery Center
           </Link>

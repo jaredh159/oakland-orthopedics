@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
 import pointToChart from '../assets/images/pointing-to-chart.jpg'
-import physicalTherapy from '../assets/images/physical-therapy.jpg'
+import salad from '../assets/images/salad-us.jpg'
 import xray from '../assets/images/xray.jpg'
 import patient from '../assets/images/patient-bracelet-us.jpg'
 import drHenderson from '../assets/images/dr-henderson.jpg'
@@ -62,12 +62,12 @@ class HomeIndex extends React.Component {
               </header>
               <Link to="/staff" className="link primary" />
             </article>
-            <article style={{ backgroundImage: `url(${physicalTherapy})` }}>
+            <article style={{ backgroundImage: `url(${salad})` }}>
               <header className="major">
-                <h3>Physical Therapy</h3>
-                <p>Superb post-injury and surgical rehab</p>
+                <h3>Healthy Living Blog</h3>
+                <p>Blog posts from Dr. Bruce Henderson</p>
               </header>
-              <Link to="/physical-therapy" className="link primary" />
+              <Link to="/blog" className="link primary" />
             </article>
             <article style={{ backgroundImage: `url(${surgeryCenter})` }}>
               <header className="major">

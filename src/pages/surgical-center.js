@@ -22,9 +22,7 @@ const About = props => (
     <div id="main" className="alt">
       <section id="one">
         <div className="inner">
-          <header className="major">
-            <h1>Surgical Care Center</h1>
-          </header>
+          <h1 className="better-major">Surgical Care Center</h1>
 
           <p>
             <span className="image right">

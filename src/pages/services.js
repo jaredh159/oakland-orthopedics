@@ -23,9 +23,7 @@ const Services = props => (
     <div id="main" className="alt">
       <section id="one">
         <div className="inner">
-          <header className="major">
-            <h1>Services We Offer</h1>
-          </header>
+          <h1 className="better-major">Services We Offer</h1>
           <span className="image main">
             <img src={kneePain} alt="" />
           </span>
