@@ -2,8 +2,8 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { Link } from 'gatsby'
 import Layout from '../../components/layout'
-import arthritis from '../../assets/images/arthritis-us.jpg'
-import salad from '../../assets/images/salad-us.jpg'
+import arthritis from '../../assets/images/small/arthritis-us.jpg'
+import salad from '../../assets/images/small/salad-us.jpg'
 
 const Excerpt = ({ title, image, children, date, slug }) => (
   <div className="blog-excerpt">
