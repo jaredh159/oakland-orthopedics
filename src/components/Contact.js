@@ -32,8 +32,8 @@ const Contact = props => (
           <div className="contact-method">
             <span className="icon alt fa-envelope" />
             <h3>Email</h3>
-            <a href="mailto:oaklandorthopedic@sbcglobal.net">
-              oaklandorthopedic@sbcglobal.net
+            <a href="mailto:oaklandorthopedic@yahoo.com">
+              oaklandorthopedic@yahoo.com
             </a>
           </div>
         </section>
