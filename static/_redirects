@@ -1,11 +1,19 @@
 # Redirect default Netlify subdomain to primary domain
-https://oaklandorthopedic.netlify.com/* https://oaklandorthopedic.com/:splat 301!
+https://oaklandorthopedic.netlify.com/* https://www.oaklandorthopedic.com/:splat 301!
+http://oaklandorthopedic.netlify.com/* http://www.oaklandorthopedic.com/:splat 301!
+
+# force ssl, @see https://stackoverflow.com/questions/49712714
+http://www.oaklandorthopedic.com/* https://www.oaklandorthopedic.com/:splat 301!
+
+# force www
+http://oaklandorthopedic.com/* https://www.oaklandorthopedic.com/:splat 301!
+https://oaklandorthopedic.com/* https://www.oaklandorthopedic.com/:splat 301!
 
 # redirect old urls
-/about.html /about 301
-/staff.html /staff 301
-/services.html /services 301
-/therapy.html /services 301
-/surgery.html /surgical-center 301
-/info.html /patient-information 301
-/contact.php / 301
+/about.html /about 301!
+/staff.html /staff 301!
+/services.html /services 301!
+/therapy.html /services 301!
+/surgery.html /surgical-center 301!
+/info.html /patient-information 301!
+/contact.php / 301!
