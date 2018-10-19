@@ -4,7 +4,7 @@ const Contact = props => (
   <section id="contact" style={{ clear: 'both' }}>
     <div className="inner">
       <section>
-        <form method="POST" netlify>
+        <form method="POST" data-netlify="true" name="Contact Form">
           <div className="field half first">
             <label htmlFor="name">Name</label>
             <input type="text" name="name" id="name" />
