@@ -6,7 +6,7 @@ const Contact = props => (
       <section>
         <form
           method="POST"
-          action="/blog?no-cache=1"
+          action="/contact-success?no-cache=1"
           data-netlify="true"
           data-netlify-honeypot="phone"
           name="Contact Form"
@@ -20,7 +20,7 @@ const Contact = props => (
             <label htmlFor="email">Email</label>
             <input type="text" name="email" id="email" />
           </div>
-          <div className="field" hidden>
+          <div className="field" id="form-phone">
             <label htmlFor="phone">Phone (required):</label>
             <input type="text" id="phone" name="phone" />
           </div>
