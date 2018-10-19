@@ -6,6 +6,7 @@ http://oaklandorthopedic.netlify.com/* http://www.oaklandorthopedic.com/:splat 3
 http://www.oaklandorthopedic.com/* https://www.oaklandorthopedic.com/:splat 301!
 
 # force www
+http://oaklandorthopedic.com https://www.oaklandorthopedic.com 301!
 http://oaklandorthopedic.com/* https://www.oaklandorthopedic.com/:splat 301!
 https://oaklandorthopedic.com/* https://www.oaklandorthopedic.com/:splat 301!
 
