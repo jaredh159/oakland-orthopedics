@@ -43,29 +43,23 @@ const About = props => (
               <img src={kneePain} alt="" style={{ maxWidth: 250 }} />
             </span>
             At Oakland Orthopedic Partners, we are a family friendly partnership
-            committed to actively improving our patients quality of life. Our
-            Orthopedic Surgeons are Board Certified by the American Board of
+            committed to actively improving our patients quality of life. Dr.
+            Bruce Henderson is Board Certified by the American Board of
             Orthopedic Surgery and well equipped to handle any and all of your
             orthopedic needs. When you visit our practice, you'll meet a team of
-            professionals that includes doctors, medical assistants, and
+            professionals that includes Dr. Henderson, medical assistants, and
             administrative staff who are focused on you and your care.
-          </p>
-          <p>
-            While some of our patients problems care be treated nonoperatively,
-            our Orthopedic surgeons are trained in the latest surgical
-            techniques and can provide the highest quality treatments for our
-            patients. Many of these techniques allow us to perform procedures
-            with smaller incisions and minimally invasive surgery leading to
-            shorter hospital stays, minimal pain and quicker recoveries.
           </p>
           <p>
             <span className="image left">
               <img src={exterior} alt="" style={{ maxWidth: 150 }} />
             </span>
-            Because each patient's needs are unique, our dedicated in-house
-            physical therapy department works in concert with us to provide a
-            carefully customized program of rehabilitation to ensure that your
-            specific needs are being met.
+            While some of our patients problems care be treated nonoperatively,
+            Dr. Henderson is trained in the latest surgical techniques and can
+            provide the highest quality treatments for our patients. Many of
+            these techniques allow us to perform procedures with smaller
+            incisions and minimally invasive surgery leading to shorter hospital
+            stays, minimal pain and quicker recoveries.
           </p>
           <p>
             Our office is located in the St. Joseph Mercy Hospital Medical

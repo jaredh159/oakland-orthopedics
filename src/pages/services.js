@@ -158,11 +158,11 @@ const Services = props => (
                 extremely common problem often resulting in pain, deformity,
                 disability and often severely altered lifestyle. Almost no other
                 imaging center routinely measures the vertebral body from the
-                lateral view except for Oakland Orthopedic Partners. We
-                recommend that all bone density patients follow up with Dr.
-                Henderson for a thorough review of the results of the density
-                testing with a customized plan to prevent or perhaps even
-                reverse future osteoporosis.
+                lateral view except for St. Joseph Mercy Oakland. We recommend
+                that all bone density patients follow up with Dr. Henderson for
+                a thorough review of the results of the density testing with a
+                customized plan to prevent or perhaps even reverse future
+                osteoporosis.
               </p>
             </Service>
 
