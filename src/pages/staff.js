@@ -12,7 +12,7 @@ const About = props => (
       </title>
       <meta
         name="description"
-        content="Dr. Bruce Henderson, MD has been helping patients in Bloomfield MI, Pontiac MI, Rochester Hills MI, Birmingham MI -- all over metro Detroit -- for nearly 40 years."
+        content="Dr. Bruce Henderson, MD has been helping patients in Clarkston MI, White Lake MI, Waterford MI, Birmingham MI -- all over metro Detroit -- for nearly 40 years."
       />
     </Helmet>
 

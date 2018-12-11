@@ -14,7 +14,7 @@ const About = props => (
       </title>
       <meta
         name="description"
-        content="Helping patients in Pontiac MI, Bloomfield MI, Farmington Hills MI, Troy MI and more with their Orthopedic needs."
+        content="Helping patients in Waterford MI, Clarkston MI, White Lake MI, Rochester MI and more with their Orthopedic needs."
       />
     </Helmet>
 
@@ -68,6 +68,10 @@ const About = props => (
             Trinity corporation. Among it’s many national awards, St. Joe’s
             orthopedics program has been consistently recognized for excellence
             and superior outcomes in orthopedic surgery and joint replacement.
+            Our convenient location on Woodward Avenue allows us to serve
+            patients from throughout Southeast Michigan and beyond, including
+            Waterford, Clarkston, Rochester, Bloomfield, White Lake, Farmington,
+            Birmingham, and more.
             <br style={{ clear: 'both' }} />
           </p>
         </div>

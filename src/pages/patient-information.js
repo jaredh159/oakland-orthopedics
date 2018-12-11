@@ -29,7 +29,7 @@ const About = props => (
       </title>
       <meta
         name="description"
-        content="Serving Birmingham MI, Orchard Lake MI, and all of SE Michigan, Oakland Orthopedics almost certainly accepts your health insurance provider, including Blue Cross/Blue Shield, Priority, Cofinity, and many more!"
+        content="Serving Waterford MI, White Lake MI, and all of SE Michigan, Oakland Orthopedics almost certainly accepts your health insurance provider, including Blue Cross/Blue Shield, Priority, Cofinity, and many more!"
       />
     </Helmet>
 
@@ -104,7 +104,7 @@ const About = props => (
           <p>Health Insurance &amp; Policies We Accept Include:</p>
           <ul>
             <li>Aetna</li>
-            <li>Alliance Health & Life</li>
+            <li>Alliance Health &amp; Life</li>
             <li>Alliance Medicare Pro</li>
             <li>Beech Street</li>
             <li>Blue Cross Blue Shield (all)</li>

@@ -8,7 +8,7 @@ const Success = props => (
       <title>Message received | Oakland Orthopedic Partners</title>
       <meta
         name="description"
-        content="Helping patients in Pontiac MI, Bloomfield MI, Farmington Hills MI, Troy MI and more with their Orthopedic needs."
+        content="Helping patients in Waterford MI, Clarkston MI, White Lake MI, Rochester MI and more with their Orthopedic needs."
       />
     </Helmet>
 

@@ -15,17 +15,17 @@ class HomeIndex extends React.Component {
     return (
       <Layout>
         <Helmet
-          title="Oakland Orthopedic Partners | Serving Pontiac, Bloomfield, Birmingham, Waterford, &amp; all of Metro Detroit &amp; Southeast Michigan"
+          title="Oakland Orthopedic Partners | Serving Waterford, Clarkston, White Lake, &amp; all of Metro Detroit &amp; Southeast Michigan"
           meta={[
             {
               name: 'description',
               content:
-                'Decades of experience as proven experts in Orthopedics and musculoskeletal care',
+                'Decades of experience as proven experts in Orthopedics and musculoskeletal care. Serving Waterford, Clarkston, White Lake, Rochester, Bloomfield, and all of the greater Metro Detroit area and Southeast Michigan.',
             },
             {
               name: 'keywords',
               content:
-                'Pontiac, Waterford, Bloomfield, West Bloomfield, Birmingham, Michigan, MI, Detroit, shoulder, rotator cuff, dislocation, arthritis, knee, total knee, total hip, bursitis, fracture, spine, scoliosis, pinched nerves, physical therapy',
+                'Waterford, Clarkston, White Lake, Rochester, Bloomfield, West Bloomfield, Birmingham, Michigan, MI, Detroit, shoulder, rotator cuff, dislocation, arthritis, knee, total knee, total hip, bursitis, fracture, spine, scoliosis, pinched nerves, physical therapy',
             },
           ]}
         />
