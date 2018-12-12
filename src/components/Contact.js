@@ -28,6 +28,7 @@ const Contact = props => (
             <label htmlFor="message">Message</label>
             <textarea name="message" id="message" rows="6" />
           </div>
+          <div data-netlify-recaptcha="true" />
           <ul className="actions">
             <li>
               <input type="submit" value="Send Message" className="special" />
@@ -39,7 +40,7 @@ const Contact = props => (
         </form>
       </section>
       <section className="split">
-        <section>
+        {/* <section>
           <div className="contact-method">
             <span className="icon alt fa-envelope" />
             <h3>Email</h3>
@@ -47,7 +48,7 @@ const Contact = props => (
               oaklandorthopedic@yahoo.com
             </a>
           </div>
-        </section>
+        </section> */}
         <section>
           <div className="contact-method">
             <span className="icon alt fa-phone" />
@@ -63,11 +64,28 @@ const Contact = props => (
             <h3>Address</h3>
             <span>
               St. Joseph Mercy Hospital <br />
-              Medical Office Building
-              <br /> Suite 407
+              Medical Office Building, Ste. 407
               <br /> 44555 Woodward Ave.
               <br /> Pontiac, MI 48341
             </span>
+          </div>
+        </section>
+        <section>
+          <div className="contact-method">
+            <span className="icon alt fa-thumbs-up" />
+            <h3>Rate Us</h3>
+            <a
+              rel="noopener noreferrer"
+              target="_blank"
+              href="http://bit.ly/review-oakland-ortho">
+              Rate us on Google
+            </a><br />
+            <a
+              rel="noopener noreferrer"
+              target="_blank"
+              href="http://bit.ly/healthgrades-oakland-ortho">
+              Rate us on Healthgrades
+            </a>
           </div>
         </section>
       </section>

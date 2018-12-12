@@ -45,6 +45,11 @@ const Menu = props => (
           </Link>
         </li>
         <li>
+          <a onClick={props.onToggleMenu} href="http://bit.ly/review-oakland-ortho">
+            <i className="fa fa-thumbs-up" /> Rate Us!
+          </a>
+        </li>
+        <li className="secondary">
           <Link onClick={props.onToggleMenu} to="/blog">
             Healthy Living Blog
           </Link>
