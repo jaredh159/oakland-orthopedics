@@ -1,7 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
-import { Link } from 'gatsby'
 import newPatientPacket from '../assets/pdfs/new-patient-packet.pdf'
 import registrationInsurance from '../assets/pdfs/registration-and-insurance.pdf'
 import privacyDisclosure from '../assets/pdfs/privacy-policy-and-disclosure.pdf'
@@ -16,7 +15,7 @@ import cpm from '../assets/pdfs/continuous-passive-motion-for-knee.pdf'
 const Pdf = ({ url, title }) => (
   <>
     <i className="fa fa-file-pdf-o" style={{ marginRight: '0.65em' }} />
-    <Link to={url}>{title}</Link>
+    <a href={url}>{title}</a>
   </>
 )
 
