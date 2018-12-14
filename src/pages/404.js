@@ -7,7 +7,7 @@ const NotFoundPage = () => (
     <div id="main" className="alt">
       <section id="one">
         <div className="inner">
-          <h1>¯\_(ツ)_/¯ Not Found</h1>
+          <h1>Not Found</h1>
           <p>
             Sorry, we couldn't find what you were looking for. Maybe try
             clicking on the menu tab at the top right of the screen or going to
