@@ -1,7 +1,8 @@
 import React from 'react'
+import topDoctor from '../assets/images/top-doctor.jpg'
 
 const Banner = props => (
-  <section id="banner" className="major">
+  <section id="banner" className="major" style={{ position: 'relative' }}>
     <div className="inner">
       <header className="major">
         <h1>Oakland Orthopedic Partners</h1>
@@ -20,6 +21,16 @@ const Banner = props => (
         </ul>
       </div>
     </div>
+
+    <img src={topDoctor} className="top-doctor" alt="" style={{
+      position: 'absolute',
+      maxWidth: 180,
+      height: 'auto',
+      right: 30,
+      bottom: 30,
+      zIndex: 5555555,
+      opacity: 0.75,
+    }}/>
   </section>
 )
 

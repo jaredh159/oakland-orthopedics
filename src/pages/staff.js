@@ -2,7 +2,8 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
-import drHenderson from '../assets/images/dr-henderson.jpg'
+import drHenderson from '../assets/images/dr-henderson-by-xrays.jpg'
+import topDoctor from '../assets/images/top-doctor.jpg'
 
 const About = props => (
   <Layout>
@@ -27,6 +28,9 @@ const About = props => (
           <h2>Our Physicians</h2>
           <h3>Bruce Henderson, M.D.</h3>
           <p>
+            <span className="image right">
+              <img src={topDoctor} alt="" style={{ maxWidth: 300 }} />
+            </span>
             As a Board Certified Orthopedic Surgeon and fellow in the academy of
             orthopedic surgeons, I have been fortunate to help my patients for
             over 35 years. It is my belief that we were designed by our Creator
