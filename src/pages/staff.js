@@ -29,7 +29,7 @@ const About = props => (
           <h3>Bruce Henderson, M.D.</h3>
           <p>
             <span className="image right">
-              <img src={topDoctor} alt="" style={{ maxWidth: 300 }} />
+              <img src={topDoctor} alt="" style={{ maxWidth: 315 }} />
             </span>
             As a Board Certified Orthopedic Surgeon and fellow in the academy of
             orthopedic surgeons, I have been fortunate to help my patients for
