@@ -24,7 +24,7 @@ const Banner = props => (
 
     <img src={topDoctor} className="top-doctor" alt="" style={{
       position: 'absolute',
-      maxWidth: 180,
+      maxWidth: 210,
       height: 'auto',
       right: 30,
       bottom: 30,
