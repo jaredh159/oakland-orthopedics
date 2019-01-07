@@ -86,7 +86,7 @@ const About = props => (
             <li>
               <Pdf
                 url={jointCareCenter}
-                title="Joint Care Center, A New Approach to Joint Replacment"
+                title="Joint Care Center, A New Approach to Joint Replacement"
               />
             </li>
             <li>
@@ -96,6 +96,15 @@ const About = props => (
               <Pdf url={cpm} title="Continuous Passive Motion for the Knee" />
             </li>
           </ul>
+
+          <hr className="major" />
+
+          <h2>Orthopedic Education</h2>
+
+          <p>
+            <a href="https://orthoinfo.org">Click here</a> to find hundreds of articles,
+            videos, and resources to help manage your bone and joint health.
+          </p>
 
           <hr className="major" />
 
