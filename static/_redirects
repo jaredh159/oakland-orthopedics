@@ -12,9 +12,12 @@ https://oaklandorthopedic.com/* https://www.oaklandorthopedic.com/:splat 301!
 
 # redirect old urls
 /about.html /about 301
-/staff.html /staff 301
+/staff.html /surgeon 301
 /services.html /services 301
 /therapy.html /services 301
 /surgery.html /surgical-center 301
 /info.html /patient-information 301
 /contact.php / 301
+
+# change /staff to /surgeon per bruce's request
+/staff /surgeon 301

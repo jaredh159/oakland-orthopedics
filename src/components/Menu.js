@@ -25,6 +25,11 @@ const Menu = props => (
       </ul>
       <ul className="links">
         <li>
+          <Link onClick={props.onToggleMenu} to="/">
+            <i className="fa fa-home" /> Home
+          </Link>
+        </li>
+        <li>
           <Link onClick={props.onToggleMenu} to="/patient-information">
             <i className="fa fa-file-pdf-o" /> Patient Info
           </Link>
@@ -45,18 +50,21 @@ const Menu = props => (
           </Link>
         </li>
         <li>
-          <a onClick={props.onToggleMenu} href="http://bit.ly/review-oakland-ortho">
+          <a
+            onClick={props.onToggleMenu}
+            href="http://bit.ly/review-oakland-ortho"
+          >
             <i className="fa fa-thumbs-up" /> Rate Us!
           </a>
         </li>
         <li className="secondary">
-          <Link onClick={props.onToggleMenu} to="/blog">
-            Healthy Living Blog
+          <Link onClick={props.onToggleMenu} to="/surgeon">
+            Meet the Surgeon
           </Link>
         </li>
         <li className="secondary">
-          <Link onClick={props.onToggleMenu} to="/staff">
-            Staff
+          <Link onClick={props.onToggleMenu} to="/blog">
+            Healthy Living Blog
           </Link>
         </li>
         <li className="secondary">
