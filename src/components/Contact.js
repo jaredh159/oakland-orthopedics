@@ -77,13 +77,16 @@ const Contact = props => (
             <a
               rel="noopener noreferrer"
               target="_blank"
-              href="http://bit.ly/review-oakland-ortho">
+              href="http://bit.ly/review-oakland-ortho"
+            >
               Rate us on Google
-            </a><br />
+            </a>
+            <br />
             <a
               rel="noopener noreferrer"
               target="_blank"
-              href="http://bit.ly/healthgrades-oakland-ortho">
+              href="http://bit.ly/healthgrades-oakland-ortho"
+            >
               Rate us on Healthgrades
             </a>
           </div>

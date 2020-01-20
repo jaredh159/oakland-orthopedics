@@ -22,15 +22,20 @@ const Banner = props => (
       </div>
     </div>
 
-    <img src={topDoctor} className="top-doctor" alt="" style={{
-      position: 'absolute',
-      maxWidth: 210,
-      height: 'auto',
-      right: 30,
-      bottom: 30,
-      zIndex: 5555555,
-      opacity: 0.75,
-    }}/>
+    <img
+      src={topDoctor}
+      className="top-doctor"
+      alt=""
+      style={{
+        position: 'absolute',
+        maxWidth: 210,
+        height: 'auto',
+        right: 30,
+        bottom: 30,
+        zIndex: 5555555,
+        opacity: 0.75,
+      }}
+    />
   </section>
 )
 

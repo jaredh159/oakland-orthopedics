@@ -102,8 +102,9 @@ const About = props => (
           <h2>Orthopedic Education</h2>
 
           <p>
-            <a href="https://orthoinfo.org">Click here</a> to find hundreds of articles,
-            videos, and resources to help manage your bone and joint health.
+            <a href="https://orthoinfo.org">Click here</a> to find hundreds of
+            articles, videos, and resources to help manage your bone and joint
+            health.
           </p>
 
           <hr className="major" />
