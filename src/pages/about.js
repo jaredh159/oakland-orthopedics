@@ -66,7 +66,7 @@ const About = props => {
             <hr className="major" />
             <h2>Why Choose Us</h2>
             <p>
-              <span className="image right">
+              <span className="knee-right image right">
                 <Image fixed={data.kneePain.image.fixed} />
               </span>
               At Oakland Orthopedic Partners, we are a family friendly
@@ -79,7 +79,7 @@ const About = props => {
               your care.
             </p>
             <p>
-              <span className="image left">
+              <span className="office-left image left">
                 <Image
                   fixed={data.office.image.fixed}
                   alt="Exterior view of Oakland Orthopedic office building."
