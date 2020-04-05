@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'gatsby-image'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
@@ -24,6 +23,10 @@ const TelemedicinePage = () => {
               <a href="tel:248-3340524">248-334-0524</a>, leave a message with
               our answering service, and one of our staff will get back to you
               promptly.
+            </p>
+            <p>
+              Telemedicine appointments are available both for <b>new</b>{' '}
+              <i>and</i> <b>established patients</b>.
             </p>
           </div>
         </section>
