@@ -1,4 +1,5 @@
 import * as React from 'react'
+import Image from 'gatsby-image'
 
 const BlogPost = ({ title, image, children, date }) => (
   <article className="blog-post">
@@ -14,7 +15,7 @@ const BlogPost = ({ title, image, children, date }) => (
     </p>
 
     <span className="image main">
-      <img src={image} alt="" />
+      <Image fluid={image.fluid} />
     </span>
 
     {children}
