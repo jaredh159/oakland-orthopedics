@@ -2,11 +2,16 @@
   line-height: 120%;
   border-bottom: 2px solid white;
   padding-bottom: 0.3em;
-  padding-top: 0 !important;
+  padding-top: 2em !important;
+}
+
+@media (min-width: 600px) {
+  .better-major {
+    padding-top: 0.75em !important;
+  }
 }
 
 .blog-post {
-
 }
 
 #form-phone {
@@ -24,7 +29,6 @@
 }
 
 .blog-meta {
-
   margin: 0 0 0.65em 0;
 
   .fa {
@@ -38,7 +42,7 @@
   }
 }
 
-@media (max-height: 650px){
+@media (max-height: 650px) {
   #menu li.secondary {
     display: none;
   }
