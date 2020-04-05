@@ -28,7 +28,7 @@ const Banner = props => (
       alt=""
       style={{
         position: 'absolute',
-        maxWidth: 210,
+        maxWidth: 170,
         height: 'auto',
         right: 30,
         bottom: 30,

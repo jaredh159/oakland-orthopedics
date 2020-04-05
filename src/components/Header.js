@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 
 const Header = props => (
-  <header id="header" className="alt">
+  <header id="header" className="alt" style={{ flexWrap: 'wrap' }}>
     <Link to="/" className="logo">
       <strong>Oakland</strong> <span>Orthopedics</span>
     </Link>
@@ -20,6 +20,12 @@ const Header = props => (
         Menu
       </a>
     </nav>
+    {props.path !== '/telemedicine' && (
+      <Link to="/telemedicine" id="covid">
+        <i className="fa fa-exclamation-circle" style={{ paddingRight: 10 }} />
+        Telemedicine appointments available during COVID-19 shutdown &rarr;
+      </Link>
+    )}
   </header>
 )
 

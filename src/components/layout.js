@@ -43,7 +43,10 @@ class Layout extends React.Component {
         }`}
       >
         <div id="wrapper">
-          <Header onToggleMenu={this.handleToggleMenu} />
+          <Header
+            onToggleMenu={this.handleToggleMenu}
+            path={this.props.path || ''}
+          />
           {children}
           <Contact />
           <Footer />

@@ -3,9 +3,6 @@ import Helmet from 'react-helmet'
 import { useStaticQuery, graphql } from 'gatsby'
 import Image from 'gatsby-image'
 import Layout from '../components/layout'
-import bruceWithPatient from '../assets/images/dr-henderson-with-female-patient.jpg'
-import exterior from '../assets/images/small/office-exterior.jpg'
-import kneePain from '../assets/images/small/knee-pain-us.jpg'
 
 const About = props => {
   const data = useStaticQuery(graphql`

@@ -5,6 +5,19 @@
 ///
 
 /* Banner */
+#covid {
+  width: 100vw;
+  text-align: center;
+  background-color: rgb(211, 125, 19);
+  line-height: 110%;
+  padding: 15px 45px;
+  border-bottom-width: 0;
+  cursor: pointer;
+}
+#covid:hover {
+  color: white !important;
+  background-color: rgb(180, 108, 20);
+}
 
 #banner {
   .top-doctor {
@@ -24,17 +37,17 @@
   border-bottom: 0 !important;
   cursor: default;
   height: 60vh;
-  margin-bottom: -3.25em;
-  max-height: 32em;
+  // margin-bottom: -3.25em;
+  max-height: 38em;
   min-height: 22em;
   position: relative;
-  top: -3.25em;
+  // top: -3.25em;
 
   &:after {
     @include vendor('transition', 'opacity #{_duration(banner)} ease');
     @include vendor('transition-delay', '0.75s');
     @include vendor('pointer-events', 'none');
-    // background-color: _palette(bg);
+    background-color: _palette(bg);
     background-color: brown;
     content: '';
     display: block;
@@ -164,10 +177,10 @@
   @include breakpoint(small) {
     @include padding(3em, 0, (2em, 0, 0, 0));
     height: auto;
-    margin-bottom: -2.75em;
+    // margin-bottom: -2.75em;
     max-height: none;
     min-height: 0;
-    top: -2.75em;
+    // top: -2.75em;
 
     h1 {
       font-size: 2em;
@@ -185,9 +198,9 @@
     }
 
     &.major {
-      height: auto;
+      // height: auto;
       min-height: 0;
-      max-height: none;
+      max-height: 30em;
     }
   }
 
