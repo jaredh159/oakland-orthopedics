@@ -21,6 +21,13 @@ const Blog = () => {
           }
         }
       }
+      vitamins: file(relativePath: { eq: "vitamins-us.jpg" }) {
+        image: childImageSharp {
+          fluid(maxWidth: 365, quality: 80) {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
     }
   `)
   return (
@@ -38,6 +45,23 @@ const Blog = () => {
         <section id="one">
           <div className="inner">
             <h1 className="better-major">Healthy Lifestyle Blog</h1>
+            <Excerpt
+              title="Preventing Viral Illness"
+              image={data.vitamins.image}
+              date="April 6, 2020"
+              slug="preventing-viral-illness"
+            >
+              Recently, one of the physicians on national news referred to the
+              health benefits of ultra violet light. Though he didn’t say it, he
+              was indirectly referring to the increase in vitamin D that comes
+              from sunshine on your skin. As an orthopedic surgeon I have long
+              been aware of the necessity of high levels of vitamin D for good
+              bone health. What I have also learned is that vitamin D is perhaps
+              the most powerful booster of your immune system. Recently I have
+              read two studies that confirm that high levels of vitamin D will
+              prevent flu better than a flu shot.
+            </Excerpt>
+            <hr className="major" />
             <Excerpt
               title="Arthritis"
               image={data.arthritis.image}
