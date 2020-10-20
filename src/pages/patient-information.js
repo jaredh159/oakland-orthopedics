@@ -1,30 +1,30 @@
-import React from 'react'
-import Helmet from 'react-helmet'
-import Layout from '../components/layout'
-import newPatientPacket from '../assets/pdfs/new-patient-packet.pdf'
-import registrationInsurance from '../assets/pdfs/registration-and-insurance.pdf'
-import privacyDisclosure from '../assets/pdfs/privacy-policy-and-disclosure.pdf'
-import electronicPrescriptionProgram from '../assets/pdfs/electronic-prescription-program.pdf'
-import totalHip from '../assets/pdfs/total-hip-replacement.pdf'
-import arthroscopicSurgery from '../assets/pdfs/arthroscopic-surgery.pdf'
-import totalKnee from '../assets/pdfs/total-knee-replacement.pdf'
-import jointCareCenter from '../assets/pdfs/joint-care-center.pdf'
-import patientGuide from '../assets/pdfs/patient-guide.pdf'
-import cpm from '../assets/pdfs/continuous-passive-motion-for-knee.pdf'
+import React from 'react';
+import Helmet from 'react-helmet';
+import Layout from '../components/layout';
+import newPatientPacket from '../assets/pdfs/new-patient-packet.pdf';
+import registrationInsurance from '../assets/pdfs/registration-and-insurance.pdf';
+import privacyDisclosure from '../assets/pdfs/privacy-policy-and-disclosure.pdf';
+import electronicPrescriptionProgram from '../assets/pdfs/electronic-prescription-program.pdf';
+import totalHip from '../assets/pdfs/total-hip-replacement.pdf';
+import arthroscopicSurgery from '../assets/pdfs/arthroscopic-surgery.pdf';
+import totalKnee from '../assets/pdfs/total-knee-replacement.pdf';
+import jointCareCenter from '../assets/pdfs/joint-care-center.pdf';
+import patientGuide from '../assets/pdfs/patient-guide.pdf';
+import cpm from '../assets/pdfs/continuous-passive-motion-for-knee.pdf';
 
 const Pdf = ({ url, title }) => (
   <>
-    <i className="fa fa-file-pdf-o" style={{ marginRight: '0.65em' }} />
+    <i className="fa fa-file-pdf-o" style={{ marginRight: `0.65em` }} />
     <a href={url}>{title}</a>
   </>
-)
+);
 
-const About = props => (
+const About = () => (
   <Layout>
     <Helmet>
       <title>
-        Patient Information | PDFs for Patient Forms, Surgery Guides, and
-        Insurance Accepted
+        Patient Information | PDFs for Patient Forms, Surgery Guides, and Insurance
+        Accepted
       </title>
       <meta
         name="description"
@@ -39,28 +39,18 @@ const About = props => (
 
           <h2>Patient Forms</h2>
           <p>
-            To ensure prompt treatment, please download the following patient
-            form forms, fill them out completely, and bring them with you to
-            your first appointment.
+            To ensure prompt treatment, please download the following patient form forms,
+            fill them out completely, and bring them with you to your first appointment.
           </p>
           <ul>
             <li>
-              <Pdf
-                url={newPatientPacket}
-                title="Complete New Patient Packet PDF"
-              />
+              <Pdf url={newPatientPacket} title="Complete New Patient Packet PDF" />
             </li>
             <li>
-              <Pdf
-                url={registrationInsurance}
-                title="Registration and Insurance PDF"
-              />
+              <Pdf url={registrationInsurance} title="Registration and Insurance PDF" />
             </li>
             <li>
-              <Pdf
-                url={privacyDisclosure}
-                title="Privacy Policy & Disclosure PDF"
-              />
+              <Pdf url={privacyDisclosure} title="Privacy Policy & Disclosure PDF" />
             </li>
             <li>
               <Pdf
@@ -102,9 +92,8 @@ const About = props => (
           <h2>Orthopedic Education</h2>
 
           <p>
-            <a href="https://orthoinfo.org">Click here</a> to find hundreds of
-            articles, videos, and resources to help manage your bone and joint
-            health.
+            <a href="https://orthoinfo.org">Click here</a> to find hundreds of articles,
+            videos, and resources to help manage your bone and joint health.
           </p>
 
           <hr className="major" />
@@ -143,6 +132,6 @@ const About = props => (
       </section>
     </div>
   </Layout>
-)
+);
 
-export default About
+export default About;

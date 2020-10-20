@@ -1,14 +1,14 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import Helmet from 'react-helmet'
-import Layout from '../components/layout'
-import Banner from '../components/Banner'
-import pointToChart from '../assets/images/small/pointing-to-chart.jpg'
-import salad from '../assets/images/small/salad-us.jpg'
-import xray from '../assets/images/small/xray.jpg'
-import patient from '../assets/images/small/patient-bracelet-us.jpg'
-import drHenderson from '../assets/images/small/dr-henderson.jpg'
-import surgeryCenter from '../assets/images/small/surgery-center.jpg'
+import React from 'react';
+import { Link } from 'gatsby';
+import Helmet from 'react-helmet';
+import Layout from '../components/layout';
+import Banner from '../components/Banner';
+import pointToChart from '../assets/images/small/pointing-to-chart.jpg';
+import salad from '../assets/images/small/salad-us.jpg';
+import xray from '../assets/images/small/xray.jpg';
+import patient from '../assets/images/small/patient-bracelet-us.jpg';
+import drHenderson from '../assets/images/small/dr-henderson.jpg';
+import surgeryCenter from '../assets/images/small/surgery-center.jpg';
 
 class HomeIndex extends React.Component {
   render() {
@@ -18,14 +18,12 @@ class HomeIndex extends React.Component {
           title="Oakland Orthopedic Partners | Serving Waterford, Clarkston, White Lake, &amp; all of Metro Detroit &amp; Southeast Michigan"
           meta={[
             {
-              name: 'description',
-              content:
-                'Decades of experience as proven experts in Orthopedics and musculoskeletal care. Serving Waterford, Clarkston, White Lake, Rochester, Bloomfield, and all of the greater Metro Detroit area and Southeast Michigan.',
+              name: `description`,
+              content: `Decades of experience as proven experts in Orthopedics and musculoskeletal care. Serving Waterford, Clarkston, White Lake, Rochester, Bloomfield, and all of the greater Metro Detroit area and Southeast Michigan.`,
             },
             {
-              name: 'keywords',
-              content:
-                'Waterford, Clarkston, White Lake, Rochester, Bloomfield, West Bloomfield, Birmingham, Michigan, MI, Detroit, shoulder, rotator cuff, dislocation, arthritis, knee, total knee, total hip, bursitis, fracture, spine, scoliosis, pinched nerves, physical therapy',
+              name: `keywords`,
+              content: `Waterford, Clarkston, White Lake, Rochester, Bloomfield, West Bloomfield, Birmingham, Michigan, MI, Detroit, shoulder, rotator cuff, dislocation, arthritis, knee, total knee, total hip, bursitis, fracture, spine, scoliosis, pinched nerves, physical therapy`,
             },
           ]}
         />
@@ -94,8 +92,8 @@ class HomeIndex extends React.Component {
           </section>
         </div>
       </Layout>
-    )
+    );
   }
 }
 
-export default HomeIndex
+export default HomeIndex;

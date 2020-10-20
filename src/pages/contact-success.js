@@ -1,8 +1,8 @@
-import React from 'react'
-import Helmet from 'react-helmet'
-import Layout from '../components/layout'
+import React from 'react';
+import Helmet from 'react-helmet';
+import Layout from '../components/layout';
 
-const Success = props => (
+const Success = () => (
   <Layout>
     <Helmet>
       <title>Message received | Oakland Orthopedic Partners</title>
@@ -17,13 +17,13 @@ const Success = props => (
         <div className="inner">
           <h1 className="better-major">Thanks for reaching out!</h1>
           <p>
-            Your message was received and will be responded to as soon as
-            possible. Thanks for your patience!
+            Your message was received and will be responded to as soon as possible. Thanks
+            for your patience!
           </p>
         </div>
       </section>
     </div>
   </Layout>
-)
+);
 
-export default Success
+export default Success;

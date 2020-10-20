@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-const Contact = props => (
-  <section id="contact" style={{ clear: 'both' }}>
+const Contact = () => (
+  <section id="contact" style={{ clear: `both` }}>
     <div className="inner">
       <section>
         <form
@@ -94,6 +94,6 @@ const Contact = props => (
       </section>
     </div>
   </section>
-)
+);
 
-export default Contact
+export default Contact;

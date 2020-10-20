@@ -1,8 +1,8 @@
-import React from 'react'
-import topDoctor from '../assets/images/top-doctor.jpg'
+import React from 'react';
+import topDoctor from '../assets/images/top-doctor.jpg';
 
-const Banner = props => (
-  <section id="banner" className="major" style={{ position: 'relative' }}>
+const Banner = () => (
+  <section id="banner" className="major" style={{ position: `relative` }}>
     <div className="inner">
       <header className="major">
         <h1>Oakland Orthopedic Partners</h1>
@@ -27,9 +27,9 @@ const Banner = props => (
       className="top-doctor"
       alt=""
       style={{
-        position: 'absolute',
+        position: `absolute`,
         maxWidth: 170,
-        height: 'auto',
+        height: `auto`,
         right: 30,
         bottom: 30,
         zIndex: 5555555,
@@ -37,6 +37,6 @@ const Banner = props => (
       }}
     />
   </section>
-)
+);
 
-export default Banner
+export default Banner;

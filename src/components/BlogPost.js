@@ -1,5 +1,5 @@
-import * as React from 'react'
-import Image from 'gatsby-image'
+import * as React from 'react';
+import Image from 'gatsby-image';
 
 const BlogPost = ({ title, image, children, date }) => (
   <article className="blog-post">
@@ -20,6 +20,6 @@ const BlogPost = ({ title, image, children, date }) => (
 
     {children}
   </article>
-)
+);
 
-export default BlogPost
+export default BlogPost;

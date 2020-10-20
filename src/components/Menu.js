@@ -1,9 +1,9 @@
 /* eslint-disable jsx-a11y/anchor-is-valid, no-script-url */
-import React from 'react'
-import PropTypes from 'prop-types'
-import { Link } from 'gatsby'
+import React from 'react';
+import PropTypes from 'prop-types';
+import { Link } from 'gatsby';
 
-const Menu = props => (
+const Menu = (props) => (
   <nav id="menu">
     <div className="inner">
       <ul className="actions vertical">
@@ -50,10 +50,7 @@ const Menu = props => (
           </Link>
         </li>
         <li>
-          <a
-            onClick={props.onToggleMenu}
-            href="http://bit.ly/review-oakland-ortho"
-          >
+          <a onClick={props.onToggleMenu} href="http://bit.ly/review-oakland-ortho">
             <i className="fa fa-thumbs-up" /> Rate Us!
           </a>
         </li>
@@ -78,10 +75,10 @@ const Menu = props => (
       Close
     </a>
   </nav>
-)
+);
 
 Menu.propTypes = {
   onToggleMenu: PropTypes.func,
-}
+};
 
-export default Menu
+export default Menu;

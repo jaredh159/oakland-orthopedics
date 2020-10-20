@@ -24,10 +24,15 @@
     "build": "gatsby build",
     "start": "npm run develop",
     "develop": "gatsby develop",
-    "format": "prettier --write '**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "fldev lint",
+    "lint:fix": "fldev lint:fix",
+    "format": "fldev format",
+    "ts:check": "true",
+    "test": "true",
+    "compile": "true"
   },
   "devDependencies": {
-    "prettier": "2.1.2"
+    "@friends-library/dev": "^4.1.11",
+    "eslint": "^7.10.0"
   }
 }
